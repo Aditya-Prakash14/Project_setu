@@ -190,7 +190,7 @@ const ContactForm: React.FC<ContactFormProps> = ({
       case 'textarea':
         return (
           <div className={layout === 'horizontal' ? 'sm:col-span-2' : ''}>
-            <label htmlFor={name} className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+            <label htmlFor={name} className="block text-sm font-medium text-black dark:text-gray-300 mb-1">
               {label} {required && showRequired && <span className="text-red-500">*</span>}
             </label>
             <textarea
@@ -202,7 +202,7 @@ const ContactForm: React.FC<ContactFormProps> = ({
               placeholder={placeholder}
               rows={4}
               className={`w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500 dark:bg-gray-800 dark:border-gray-700 dark:text-white ${
-                error ? 'border-red-500' : 'border-gray-300 dark:border-gray-700'
+                error ? 'border-red-500' : 'border-black/20 dark:border-gray-700'
               }`}
               disabled={isSubmitting}
               required={required}
@@ -214,7 +214,7 @@ const ContactForm: React.FC<ContactFormProps> = ({
       case 'select':
         return (
           <div>
-            <label htmlFor={name} className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+            <label htmlFor={name} className="block text-sm font-medium text-black dark:text-gray-300 mb-1">
               {label} {required && showRequired && <span className="text-red-500">*</span>}
             </label>
             <select
@@ -224,7 +224,7 @@ const ContactForm: React.FC<ContactFormProps> = ({
               onChange={handleChange}
               onBlur={handleBlur}
               className={`w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500 dark:bg-gray-800 dark:border-gray-700 dark:text-white ${
-                error ? 'border-red-500' : 'border-gray-300 dark:border-gray-700'
+                error ? 'border-red-500' : 'border-black/20 dark:border-gray-700'
               }`}
               disabled={isSubmitting}
               required={required}
@@ -243,7 +243,7 @@ const ContactForm: React.FC<ContactFormProps> = ({
       default: // text, email, tel
         return (
           <div>
-            <label htmlFor={name} className="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">
+            <label htmlFor={name} className="block text-sm font-medium text-black dark:text-gray-300 mb-1">
               {label} {required && showRequired && <span className="text-red-500">*</span>}
             </label>
             <input
@@ -255,7 +255,7 @@ const ContactForm: React.FC<ContactFormProps> = ({
               onBlur={handleBlur}
               placeholder={placeholder}
               className={`w-full px-3 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-primary-500 dark:bg-gray-800 dark:border-gray-700 dark:text-white ${
-                error ? 'border-red-500' : 'border-gray-300 dark:border-gray-700'
+                error ? 'border-red-500' : 'border-black/20 dark:border-gray-700'
               }`}
               disabled={isSubmitting}
               required={required}
@@ -271,8 +271,8 @@ const ContactForm: React.FC<ContactFormProps> = ({
       {/* Form header */}
       {(title || subtitle) && (
         <div className="mb-6">
-          {title && <h2 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">{title}</h2>}
-          {subtitle && <p className="text-gray-600 dark:text-gray-300">{subtitle}</p>}
+          {title && <h2 className="text-2xl font-bold text-black dark:text-white mb-2">{title}</h2>}
+          {subtitle && <p className="text-black dark:text-gray-300">{subtitle}</p>}
         </div>
       )}
       

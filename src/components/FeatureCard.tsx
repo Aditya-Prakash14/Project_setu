@@ -136,7 +136,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
             )}
             
             <div className="flex items-center mb-3">
-              <h3 className="text-xl font-semibold text-gray-900 dark:text-white">{title}</h3>
+              <h3 className="text-xl font-semibold text-black dark:text-white">{title}</h3>
               {isNew && (
                 <span className="ml-2 px-2 py-1 text-xs bg-primary-100 dark:bg-primary-900 text-primary-800 dark:text-primary-300 rounded-full font-medium">
                   New
@@ -144,7 +144,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
               )}
             </div>
             
-            <p className="text-gray-600 dark:text-gray-300">{description}</p>
+            <p className="text-black dark:text-gray-300">{description}</p>
             {renderLink()}
           </div>
         );
@@ -165,7 +165,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
             )}
             
             <div className="flex items-center mb-3">
-              <h3 className="text-xl font-semibold text-gray-900 dark:text-white">{title}</h3>
+              <h3 className="text-xl font-semibold text-black dark:text-white">{title}</h3>
               {isNew && (
                 <span className="ml-2 px-2 py-1 text-xs bg-primary-100 dark:bg-primary-900 text-primary-800 dark:text-primary-300 rounded-full font-medium">
                   New
@@ -173,7 +173,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({
               )}
             </div>
             
-            <p className="text-gray-600 dark:text-gray-300">{description}</p>
+            <p className="text-black dark:text-gray-300">{description}</p>
             {renderLink()}
           </div>
         );

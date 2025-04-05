@@ -39,7 +39,7 @@ const GetInvolved = () => {
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="text-primary-600 font-medium">JOIN US</span>
           <h2 className="section-title mt-2">Get Involved</h2>
-          <p className="text-lg text-gray-600">
+          <p className="text-lg text-black">
             There are many ways to support our mission. Choose what works best for you and help us bridge the digital divide.
           </p>
         </div>
@@ -56,12 +56,12 @@ const GetInvolved = () => {
                   <Check className="text-primary-600" size={30} />
                 </div>
                 <h4 className="text-xl font-semibold mb-2">Thank You!</h4>
-                <p className="text-gray-600">Your message has been sent successfully. We'll get back to you soon.</p>
+                <p className="text-black">Your message has been sent successfully. We'll get back to you soon.</p>
               </div>
             ) : (
               <form className="space-y-5" onSubmit={handleSubmit}>
                 <div className="space-y-1">
-                  <label className="block text-sm font-medium text-gray-700">
+                  <label className="block text-sm font-medium text-black">
                     Full Name
                   </label>
                   <input
@@ -70,12 +70,12 @@ const GetInvolved = () => {
                     value={formState.name}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-colors"
+                    className="w-full px-4 py-3 border border-black/20 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-colors"
                     placeholder="Enter your name"
                   />
                 </div>
                 <div className="space-y-1">
-                  <label className="block text-sm font-medium text-gray-700">
+                  <label className="block text-sm font-medium text-black">
                     Email
                   </label>
                   <input
@@ -84,12 +84,12 @@ const GetInvolved = () => {
                     value={formState.email}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-colors"
+                    className="w-full px-4 py-3 border border-black/20 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-colors"
                     placeholder="Enter your email"
                   />
                 </div>
                 <div className="space-y-1">
-                  <label className="block text-sm font-medium text-gray-700">
+                  <label className="block text-sm font-medium text-black">
                     How would you like to help?
                   </label>
                   <textarea
@@ -98,7 +98,7 @@ const GetInvolved = () => {
                     value={formState.message}
                     onChange={handleChange}
                     required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-colors"
+                    className="w-full px-4 py-3 border border-black/20 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-colors"
                     placeholder="Tell us how you'd like to contribute..."
                   ></textarea>
                 </div>
@@ -125,13 +125,13 @@ const GetInvolved = () => {
                 </div>
                 <h3 className="text-xl font-semibold">Partner With Us</h3>
               </div>
-              <p className="text-gray-600 mb-6">
+              <p className="text-black mb-6">
                 We welcome partnerships with organizations that share our vision of
                 empowering rural communities through technology.
               </p>
               <div className="bg-gray-50 p-4 rounded-lg mb-6">
                 <h4 className="font-medium mb-1">Partnership Benefits</h4>
-                <ul className="text-sm text-gray-600 space-y-1">
+                <ul className="text-sm text-black space-y-1">
                   <li>• Combined resources for greater impact</li>
                   <li>• Access to our network of communities</li>
                   <li>• Visibility through our channels</li>

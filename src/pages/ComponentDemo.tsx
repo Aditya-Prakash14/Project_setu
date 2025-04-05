@@ -409,7 +409,7 @@ const ComponentDemo: React.FC = () => {
       <footer className="bg-white dark:bg-gray-800 border-t border-gray-200 dark:border-gray-700 py-8">
         <div className="container-custom">
           <div className="text-center">
-            <p className="text-gray-600 dark:text-gray-300">
+            <p className="text-black dark:text-gray-300">
               Project Setu Component Library - Designed with ❤️ for a sustainable future
             </p>
             <div className="mt-4 flex items-center justify-center space-x-4">

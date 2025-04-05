@@ -21,7 +21,7 @@ const Hero = () => {
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
               Bridging Rural India <span className="text-primary-400">with Technology</span>
             </h1>
-            <p className="text-xl text-gray-200 mb-8">
+            <p className="text-xl text-white mb-8">
               Empowering communities through digital literacy, technological solutions, and sustainable development.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
